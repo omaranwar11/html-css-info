@@ -1,0 +1,207 @@
+.headerText {
+    text-align: center;
+    background-color: #504c4c;
+    padding: 5px;
+    width: 99%;
+    border-radius: 0.5em;
+    font-family: serif;
+    color: #000000;
+    
+  }
+  
+  .container {
+    display: inline;
+    font-family: serif;
+    color: #ededfe;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .nestedList {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 0.1em;
+    border: #235416;
+    border-radius: 0.5em;
+    background-color: rgb(168, 168, 168);
+    margin: 0.3%;
+  }
+  
+  .columnCom {
+    float: left;
+    width: 93%;
+    padding: 0.1em;
+    border: #235416;
+    border-radius: 0.5em;
+    background-color: rgb(28, 41, 41);
+    margin: 0.3%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .listHeading {
+    color: #235416;
+    font-size: 36px;
+    font-weight: normal;
+    color: rgb(63, 63, 63);
+    list-style: none;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    background-color: #49636b;
+    border-radius: 0.5em;
+  }
+  
+  
+  .imgCenter{
+    text-align: center;
+  }
+  
+  img {
+    border: 1px solid rgb(102, 102, 102);
+    width: 200px;
+    /* height: 2; */
+    border-radius: 10%;
+    text-align: center;
+    padding: px;
+  
+    
+  }
+  
+  img:hover {
+    box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
+    /* user-zoom: 100px; */
+  }
+  
+  /* 
+  The font face is 'Source Sans Pro' and the fallback font is sans-serif.
+  o The font size is 18px.
+  o The line height 32px.
+  o The font color is rgb(51, 51, 51). */
+  
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    text-align: justify;
+  }
+  li {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+  }
+  
+  /* 
+  Links
+  o Each address of the page is a link. The URL for each link is listed in listicle-content.txt.
+  o The link color is #42b4d6.
+  o The link is not bold, and the link is not underlined unless you hover over the link.
+  o When you hover over the link, the link becomes underlined.
+  o Hints: To remove an underline, you can use CSS property text-decoration: none;
+  o To add an underline, you can use CSS property text-decoration: underline */
+  
+  a {
+    color: #42b4d6;
+    text-decoration: none;
+  }
+  a:hover {
+    /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */
+    text-decoration: underline;
+  }
+  
+  h3 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    background-color: #49636b;
+    border-radius: 0.5em;
+  }
+  
+  nav {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    background-color: #ededfe;
+  
+    /* background-color: #42b4d6; */
+    border-radius: 0.5em;
+  }
+  
+  tr {
+    /* float: left; */
+    /* width: 93%; */
+    padding: 0.1em;
+    border: #235416;
+    border-radius: 0.5em;
+    background-color: rgb(199, 199, 198);
+    /* margin: 0.3%; */
+  }
+  
+  td {
+    /* float: left; */
+    /* width: 93%; */
+    padding: 0.1em;
+    border: #235416;
+    border-radius: 0.5em;
+    /* background-color: aqua; */
+    /* margin: 0.3%; */
+  }
+  
+  .Tableheading {
+    /* float: left; */
+    /* width: 93%; */
+    padding: 0.1em;
+    border: #235416;
+    border-radius: 0.5em;
+    background-color: rgb(98, 201, 112);
+    /* margin: 0.3%; */
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* #################  Page Responsiveness ######################## */
+  
+  @media all and (min-width: 0px) and (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  @media all and (min-width: 769px) and (max-width: 992px) {
+    .column {
+      width: 33.3%;
+    }
+  }
+  @media all and (min-width: 993px) {
+    .column {
+      width: 20.3%;
+    }
+  }
+  
+  .cp-text {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
